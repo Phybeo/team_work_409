@@ -115,7 +115,7 @@ if %COMPILE_SUCCESS% equ 0 (
 if %COMPILE_SUCCESS% equ 1 (
     echo 编译脚本执行成功
 ) else (
-    echo 编译脚本执行失败
+    echo 编译脚本执行fail
 )
 endlocal
 pause

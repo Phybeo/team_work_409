@@ -7,7 +7,7 @@
 #include "MemoryPool.h"
 
 // 定义测试参数
-const int NUM_THREADS = 8;          // 线程数量
+const int NUM_THREADS = 8;          // 线程的数量
 const int OPS_PER_THREAD = 100000;  // 每个线程执行的操作次数
 const int MAX_OBJECT_SIZE = 256;    // 最大对象大小
 

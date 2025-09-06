@@ -14,7 +14,7 @@ if exist "C:\Program Files\7-Zip\7z.exe" (
 ) else if exist "C:\Program Files (x86)\7-Zip\7z.exe" (
     set "SEVEN_ZIP=C:\Program Files (x86)\7-Zip\7z.exe"
 ) else (
-    echo ERROR: 7-Zip is required but not installed
+    echo ERROR: 7-Zip is required but not installed 
     echo 1. Download 7-Zip from https://www.7-zip.org/
     echo 2. Install using default settings
     echo 3. Run this script again
@@ -39,7 +39,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-REM Step 3: Extract MinGW with progress visibility
+REM Step 3: Extract MinGW with progress visibilit
  echo [2/5] Extracting MinGW toolchain...
 if not exist "%GPP_PATH%" (
     echo Extracting: "%SEVEN_ZIP%" x %MINGW_ARCHIVE% -o%MINGW_DIR%

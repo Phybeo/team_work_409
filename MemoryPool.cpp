@@ -5,7 +5,7 @@ namespace memoryPool
 {
 MemoryPool::MemoryPool(size_t BlockSize)
     : BlockSize_(BlockSize),
-      freeList_(nullptr) // 初始化原子指针
+      freeList_(nullptr) // 初始化原子 指针
 {}
 
 MemoryPool::~MemoryPool()

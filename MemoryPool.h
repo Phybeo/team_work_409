@@ -9,7 +9,7 @@ namespace memoryPool
 #define SLOT_BASE_SIZE 8
 #define MAX_SLOT_SIZE 512
 
-    /* 具体内存池的槽大小没法确定，因为每个内存池的槽大小不同(8的倍数)
+    /* 具体内存池的槽大小没法确定，因为每个内存池的槽大小不同
        所以这个槽结构体的sizeof 不是实际的槽大小 */
 struct Slot
 {
