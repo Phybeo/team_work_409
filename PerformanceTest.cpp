@@ -8,7 +8,7 @@
 
 // 定义测试参数
 const int NUM_THREADS = 8;          // 线程的数量
-const int OPS_PER_THREAD = 100000;  // 每个线程执行的操作次数
+const int OPS_PER_THREAD = 100000;  // 每个线程执行的操作次数的
 const int MAX_OBJECT_SIZE = 256;    // 最大对象大小
 
 // 用于随机生成对象大小和操作类型的随机数生成器
