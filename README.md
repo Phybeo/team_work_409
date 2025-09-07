@@ -70,7 +70,7 @@ allocator.deallocate(data, 128);
 - **状态**：初始版本，包含核心功能实现
 
 项目代码框架
-plaintext
+'''
 team_work_409/
 ├── include/
 │   └── fixed_size_allocator.h       # 分配器类声明
@@ -85,6 +85,7 @@ team_work_409/
 ├── CMakeLists.txt                   # 项目构建配置
 ├── README.md                        # 项目说明文档
 └── LICENSE                          # 开源许可证
+'''
 核心文件说明
 fixed_size_allocator.h
 定义FixedSizeAllocator类接口
